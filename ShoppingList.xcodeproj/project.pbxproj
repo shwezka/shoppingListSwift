@@ -6,6 +6,10 @@
 	objectVersion = 110;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		B9258F5A3073B2CE002FF60A /* readme.md in Resources */ = {isa = PBXBuildFile; fileRef = B9258F583073B2CA002FF60A /* readme.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		B99E3369307398FA0074B6CF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9258F583073B2CA002FF60A /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = readme.md; sourceTree = "<group>"; };
 		B99E335B307398F80074B6CF /* ShoppingList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShoppingList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99E3368307398FA0074B6CF /* ShoppingListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B99E3372307398FA0074B6CF /* ShoppingListUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ShoppingListUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,6 +77,7 @@
 				B99E335D307398F80074B6CF /* ShoppingList */,
 				B99E336B307398FA0074B6CF /* ShoppingListTests */,
 				B99E3375307398FA0074B6CF /* ShoppingListUITests */,
+				B9258F583073B2CA002FF60A /* readme.md */,
 				B99E335C307398F80074B6CF /* Products */,
 			);
 			sourceTree = "<group>";
@@ -197,6 +203,7 @@
 		B99E3359307398F80074B6CF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			files = (
+				B9258F5A3073B2CE002FF60A /* readme.md in Resources */,
 			);
 		};
 		B99E3366307398FA0074B6CF /* Resources */ = {
